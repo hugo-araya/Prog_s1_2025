@@ -8,6 +8,7 @@ int main(void){
     }
     for (x=100;x >= 1;x--){
         printf("%d\n",tabla[x]);
+        
     }    
     return 0;
 }
