@@ -38,7 +38,7 @@ Thumbs.db
 .gitignore
 
 # haraya en C generated files #
-######################
+#######################
 *.hac
 *.out
 *.plist
