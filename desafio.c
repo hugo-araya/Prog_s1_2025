@@ -49,9 +49,9 @@ void imprime_matriz_2(int matriz[][N], int n){
 
 void proceso(int matriz[][N], int n, int *status){
     int st1, st2, st3;
-    st1 = suma_filas(...); // devuelve 0 falso 1 verdadero
-    st2 = suma_columnas(...); // devuelve 0 falso 1 verdadero
-    st3 = suma_diagonales(...); // devuelve 0 falso 1 verdadero
+    //st1 = suma_filas(...); // devuelve 0 falso 1 verdadero
+    //st2 = suma_columnas(...); // devuelve 0 falso 1 verdadero
+    //st3 = suma_diagonales(...); // devuelve 0 falso 1 verdadero
     if ((st1 + st2 + st3)!=3){
         *status = 0;
     }
